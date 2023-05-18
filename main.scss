@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+$primary: #CC3480;
+$dark:#878787;
+$enable-negative-margins: true;
+
+.background-1 {
+    background-image: url("../img/bg1.png"); /* The image used */
+    background-color: #FFFFFF; /* Used if the image is unavailable */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.background-2 {
+    background-image: url("../img/bg2.png"); /* The image used */
+    background-color: #FFFFFF; /* Used if the image is unavailable */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.background-3 {
+  background-image: url("../img/bg3.png"); /* The image used */
+  background-color: #FFFFFF; /* Used if the image is unavailable */
+  background-position: top; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.shadow-card {
+    box-shadow: -20px 20px 100px rgba(17, 17, 17, 0.07);
+}
+
+.shadow-card-icon {
+    box-shadow: 0px 5px 20px rgba(17, 17, 17, 0.1);
+}
+
+.survey-section {
+    border-radius: 72px 0px;
+}
+
+.ads-section {
+  border-radius: 72px 12px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #CC3480;
+  }
+  
+  ::selection {
+    color: white;
+    background: #CC3480;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #CC3480; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #878787; 
+  }
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+// sass main.scss css/main.css
